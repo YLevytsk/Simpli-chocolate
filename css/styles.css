@@ -96,15 +96,18 @@
         align-items: center;
         gap: 20px;
     }
-}
 
-.nav-item {
-    position: relative;
-    list-style: none;
-}
+    .nav-item {
+        position: relative;
+        list-style: none;
+    }
 
-.soc_nets_item {
-    position: relative;
-    list-style: none;
+    .soc_nets_item {
+        position: relative;
+        list-style: none;
+    }
 
+    .soc_nets {
+        display: flex;
+    }
 }
