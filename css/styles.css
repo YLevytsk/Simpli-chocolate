@@ -3,19 +3,29 @@
     max-width: 375px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  @media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 768px) {
     .container {
-      max-width: 768px;
-      padding: 0 32px;
+        max-width: 768px;
+        padding: 0 32px;
     }
-  }
-  
-  /* Styles for Desktop devices */
-  @media only screen and (min-width: 1280px) {
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
     .container {
-      max-width: 1280px;
-      padding: 0 65px;
+        max-width: 1280px;
+        padding: 0 65px;
     }
-  }
-  
+}
+
+.logo_simply {
+font-family: "Montserrat", sans-serif;
+font-style: italic;
+font-weight: 700;
+font-size: 18px;
+line-height: 111%;
+letter-spacing: -0.03em;
+color: #111111;
+}
