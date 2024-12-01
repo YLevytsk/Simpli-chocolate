@@ -65,6 +65,12 @@
         margin-left: 47px;
     }
 
+    .soc-conteiner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .logo_simply,
     .logo_chocolate {
         font-weight: 700;
@@ -130,5 +136,13 @@
 
     .soc_nets {
         display: flex;
+    }
+
+    .soc_nets_link {
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        border-radius: 10px;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
     }
 }
