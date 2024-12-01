@@ -54,3 +54,12 @@ text-decoration: none;
         line-height: 111%
     }
   }
+  .header-button {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+  }
