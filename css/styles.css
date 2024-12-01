@@ -22,19 +22,21 @@
 
 .logo_simply {
 font-family: "Montserrat", sans-serif;
-font-style:  bold italic;
+font-style: italic;
 font-weight: 700;
 font-size: 18px;
 line-height: 111%;
 letter-spacing: -0.03em;
 color: #111111;
+text-decoration: none;
 }
 .logo_chocolate {
     font-family: "Montserrat", sans-serif;
-    font-style: bold;
+    font-style: normal; 
     font-weight: 700;
     font-size: 18px;
     line-height: 111%;
     letter-spacing: -0.03em;
-    color: #111111;  
+    color: #111111;
+    text-decoration: none;  
 }
