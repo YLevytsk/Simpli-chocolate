@@ -42,6 +42,17 @@
     text-decoration: none;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.logo-icon {
+    stroke-width: 1.80px;
+    stroke: #FD9222;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
