@@ -24,8 +24,8 @@
 font-family: "Montserrat", sans-serif;
 font-style: italic;
 font-weight: 700;
-font-size: 18px;
-line-height: 111%;
+font-size: 14px;
+line-height: 129%;
 letter-spacing: -0.03em;
 color: #111111;
 text-decoration: none;
@@ -34,9 +34,16 @@ text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-style: normal; 
     font-weight: 700;
-    font-size: 18px;
-    line-height: 111%;
+    font-size: 14px;
+    line-height: 129%;
     letter-spacing: -0.03em;
     color: #111111;
     text-decoration: none;  
 }
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
