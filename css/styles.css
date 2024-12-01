@@ -21,40 +21,46 @@
 }
 
 .logo_simply {
-font-family: "Montserrat", sans-serif;
-font-style: italic;
-font-weight: 700;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.03em;
-color: #111111;
-text-decoration: none;
-}
-.logo_chocolate {
     font-family: "Montserrat", sans-serif;
-    font-style: normal; 
+    font-style: italic;
     font-weight: 700;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.03em;
     color: #111111;
-    text-decoration: none;  
+    text-decoration: none;
 }
+
+.logo_chocolate {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.03em;
+    color: #111111;
+    text-decoration: none;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-  @media only screen and (min-width: 1280px) {
-    .header-logo {
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .logo_simply,
+    .logo_chocolate {
         font-weight: 700;
         font-size: 18px;
         line-height: 111%
     }
-  }
-  .header-button {
+}
+
+.header-button {
     width: 34px;
     height: 34px;
     display: flex;
@@ -62,4 +68,4 @@ text-decoration: none;
     justify-content: center;
     background-color: transparent;
     border: none;
-  }
+}
