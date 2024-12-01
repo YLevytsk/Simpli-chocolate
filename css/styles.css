@@ -136,6 +136,7 @@
 
     .soc_nets {
         display: flex;
+        margin: 0;
     }
 
     .soc_nets_link {
@@ -149,5 +150,6 @@
         justify-content: center;
         width: 100%;
         height: 100%;
+
     }
 }
