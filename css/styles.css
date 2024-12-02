@@ -146,7 +146,7 @@
 }
 
 .header-button-svg {
-    display: flex;
+    display: block;
     fill: #111111;
 
 }
