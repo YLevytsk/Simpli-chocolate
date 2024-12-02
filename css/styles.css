@@ -81,6 +81,10 @@
     .nav-list {
         margin-right: 90px;
     }
+    .container-header {
+        display: flex;               /* Включаем Flexbox */
+        justify-content: space-between;
+    }
 }
 
 .header-button {
