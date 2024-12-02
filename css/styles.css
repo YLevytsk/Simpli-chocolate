@@ -56,6 +56,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+    .logo-container {
+        margin-left: auto;
+    }
 
     .soc-conteiner {
         display: flex;
@@ -84,8 +87,8 @@
     }
 
     .nav-list {
-        margin-right: 90px;
         gap: 24px;
+        margin-left: auto;
     }
 
     .container-header {
