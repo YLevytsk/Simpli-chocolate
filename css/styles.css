@@ -79,6 +79,9 @@
         justify-content: space-between;
         gap: 365px;
     }
+    .header-button {
+        display: none;
+      }
 }
 
 
@@ -125,7 +128,9 @@
         align-items: center;
         gap: 20px;
     }
-  
+    .header-button {
+        display: none;
+      }
     .nav-item {
         position: relative;
         list-style: none;
