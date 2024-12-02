@@ -58,13 +58,6 @@
 
 @media only screen and (min-width: 1280px) {
 
-    .all-conteiner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 47px;
-    }
-
     .soc-conteiner {
         display: flex;
         justify-content: space-between;
@@ -82,21 +75,12 @@
         margin-right: 90px;
     }
     .container-header {
-        display: flex;               /* Включаем Flexbox */
+        display: flex;              
         justify-content: space-between;
         gap: 365px;
     }
 }
 
-.header-button {
-    width: 34px;
-    height: 34px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    border: none;
-}
 
 @media only screen and (min-width: 768px) {
     .container-header {
@@ -128,11 +112,7 @@
         align-items: center;
         gap: 20px;
     }
-    .all-conteiner {
-       display: flex;
-       justify-content: space-between;
-       gap: 28px;
-    }
+  
     .nav-item {
         position: relative;
         list-style: none;
