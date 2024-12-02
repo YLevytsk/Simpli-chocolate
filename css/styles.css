@@ -80,6 +80,10 @@
         line-height: 111%
     }
 
+    .nav-item {
+        position: relative;
+    }
+
     .nav-list {
         margin-right: 90px;
     }
