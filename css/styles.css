@@ -58,7 +58,7 @@
 
 @media only screen and (min-width: 1280px) {
 
-    .container-nav {
+    .all-conteiner {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -137,6 +137,8 @@
     .soc_nets {
         display: flex;
         margin: 0;
+        justify-content: space-between; 
+        gap: 14px;
     }
 
     .soc_nets_link {
