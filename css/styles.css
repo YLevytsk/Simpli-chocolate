@@ -63,14 +63,16 @@
         justify-content: space-between;
         align-items: center;
     }
+
     .navi-link-menu {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
-       font-size: 14px;
-       line-height: 114%;
-       letter-spacing: -0.02em;
-       color:#111111;
+        font-size: 14px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+        color: #111111;
     }
+
     .logo_simply,
     .logo_chocolate {
         font-weight: 700;
@@ -81,14 +83,16 @@
     .nav-list {
         margin-right: 90px;
     }
+
     .container-header {
-        display: flex;              
+        display: flex;
         justify-content: space-between;
         gap: 365px;
     }
+
     .header-button {
         display: none;
-      }
+    }
 }
 
 
@@ -104,25 +108,27 @@
 
     .navi-link-menu {
         text-decoration: none;
-         font-family: "Montserrat", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 114%;
         letter-spacing: -0.02em;
-        color:#111111;
-        }
-    
-}
+        color: #111111;
+    }
+
     .navi-link-menu {
         white-space: nowrap;
+    }
 }
 
 .soc_nets {
     display: none;
 }
+
 .nav-list {
     display: none;
 }
+
 .header-button {
     width: 28px;
     height: 28px;
@@ -131,16 +137,21 @@
     justify-content: center;
     background-color: transparent;
     border: none;
-  }
+    stroke-width: 2px;
+    stroke: #111111;
+}
+
 @media only screen and (min-width: 768px) {
     .nav-list {
         display: flex;
         align-items: center;
         gap: 20px;
     }
+
     .header-button {
         display: none;
-      }
+    }
+
     .nav-item {
         position: relative;
         list-style: none;
@@ -154,7 +165,7 @@
     .soc_nets {
         display: flex;
         margin: 0;
-        justify-content: space-between; 
+        justify-content: space-between;
         gap: 14px;
     }
 
@@ -171,9 +182,10 @@
         height: 100%;
 
     }
-    .logo_simply, 
-    .logo_chocolate, 
+
+    .logo_simply,
+    .logo_chocolate,
     .logo-icon {
-         white-space: nowrap;
-}
+        white-space: nowrap;
+    }
 }
