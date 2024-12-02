@@ -85,12 +85,13 @@
 
     .nav-list {
         margin-right: 90px;
+        gap: 24px;
     }
 
     .container-header {
         display: flex;
         justify-content: space-between;
-        gap: 365px;
+
     }
 
     .header-button {
