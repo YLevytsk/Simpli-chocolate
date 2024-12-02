@@ -84,6 +84,7 @@
     .container-header {
         display: flex;               /* Включаем Flexbox */
         justify-content: space-between;
+        gap: 365px;
     }
 }
 
